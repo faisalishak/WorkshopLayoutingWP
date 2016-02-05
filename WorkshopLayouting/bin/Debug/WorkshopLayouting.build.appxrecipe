@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>FAISAL</Machine>
+    <WindowsUser>faisal</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>61689c13-ae51-4938-891a-a52a2db68de3</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\bin\Debug\WorkshopLayouting.exe">
+      <PackagePath>WorkshopLayouting.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\Assets\Images\bg_body.jpg">
+      <PackagePath>Assets\Images\bg_body.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\Assets\Images\Camera-01.png">
+      <PackagePath>Assets\Images\Camera-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\Assets\Images\logo_trasparan_putih.png">
+      <PackagePath>Assets\Images\logo_trasparan_putih.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\Assets\Images\o.png">
+      <PackagePath>Assets\Images\o.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\bin\Debug\WorkshopLayouting.xr.xml">
+      <PackagePath>WorkshopLayouting.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\bin\Debug\VEdit.xbf">
+      <PackagePath>VEdit.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\bin\Debug\VProfile.xbf">
+      <PackagePath>VProfile.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\WorkshopLayouting\WorkshopLayouting\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

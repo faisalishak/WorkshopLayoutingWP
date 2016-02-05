@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="WorkshopLayouting.VEdit"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WorkshopLayouting"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="219*"/>
+            <ColumnDefinition Width="181*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="242*"/>
+            <RowDefinition Height="43*"/>
+            <RowDefinition Height="295*"/>
+        </Grid.RowDefinitions>
+
+
+        <Image Source="Assets/Images/bg_body.jpg" Stretch="UniformToFill" Margin="0,0,0,30.394" Grid.Row="0" Grid.ColumnSpan="2"/>
+        <Ellipse Grid.Row="0" Height="150" Width="150" VerticalAlignment="Bottom" HorizontalAlignment="Center" Grid.ColumnSpan="2" Margin="125,0" Grid.RowSpan="2">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="Assets/Images/o.png" Stretch="UniformToFill"></ImageBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Image Grid.Column="1" Source="Assets/Images/Camera-01.png" Grid.Row="1" Width="40" Height="40" HorizontalAlignment="Left" Margin="10 0 0 0" ></Image>
+
+        <StackPanel Grid.Row="2" Margin="0 30 0 0" Orientation="Vertical" Grid.ColumnSpan="2">
+            <TextBox Name="EditName" Width="320" Text="Anonymous" Header="User Name" Background="#FFFFFEFE"></TextBox>
+            <TextBox Name="EditStatus" Width="320" Text="Hari ini hari jumat besok hari sabtu besoknya lagi minggu" TextWrapping="Wrap" Height="120" Header="Status" Background="White"></TextBox>
+        </StackPanel>
+    </Grid>
+
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton Label="Edit" Icon="Save"></AppBarButton>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>

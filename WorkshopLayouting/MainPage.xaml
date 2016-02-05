@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="WorkshopLayouting.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WorkshopLayouting"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="OrangeRed">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="257*"/>
+            <RowDefinition Height="383*"/>
+        </Grid.RowDefinitions>
+        <Image Source="Assets/Images/logo_trasparan_putih.png" Width="300"></Image>
+        <StackPanel Grid.Row="1" Margin="0 80 0 0"  Orientation="Vertical">
+            <TextBox Width="330" InputScope="EmailSmtpAddress" PlaceholderText="e-mail or user name" Background="White" BorderBrush="#FFFFFEFE"></TextBox>
+            <PasswordBox Width="330" PlaceholderText="password" Background="White" BorderBrush="White"  ></PasswordBox>
+            <Button x:Name="ButtonLogin" Width="330" Content="Login" HorizontalAlignment="Center" Background="#FF2BB23E" BorderBrush="#FF2BB23E" Foreground="White" Click="ButtonLogin_Click"></Button>
+        </StackPanel>
+    </Grid>
+</Page>

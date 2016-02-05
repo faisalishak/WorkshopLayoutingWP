@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="WorkshopLayouting.VProfile"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WorkshopLayouting"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="267*"/>
+            <RowDefinition Height="373*"/>
+        </Grid.RowDefinitions>
+
+        <Image Source="Assets/Images/bg_body.jpg" Stretch="UniformToFill" Margin="0 0 0 75"/>
+        <Ellipse Grid.Row="0" Height="150" Width="150" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="Assets/Images/o.png" Stretch="UniformToFill"></ImageBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+
+        <StackPanel Grid.Row="1" Orientation="Vertical" Margin="0 30 0 0">
+            <TextBlock HorizontalAlignment="Center" Text="Anonymous" FontSize="30" FontWeight="Bold"></TextBlock>
+            <TextBlock HorizontalAlignment="Center" Width="300" TextAlignment="Center" TextWrapping="Wrap" FontSize="20" Text="Hari ini hari jumat besok hari sabtu besoknya lagi minggu" Foreground="#FF5F5F5F" ></TextBlock>
+            <TextBlock></TextBlock>
+        </StackPanel>
+    </Grid>
+
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton Name="EditButton" Label="Edit" Icon="Edit" Click="EditButton_Click"></AppBarButton>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
